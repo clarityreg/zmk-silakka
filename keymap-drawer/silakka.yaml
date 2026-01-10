@@ -52,11 +52,9 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - ⏎
-  - ''
   - ␣
   - BACKSPACE
   - RIGHT GUI
-  - ''
   Lower:
   - BT CLR
   - BT 1
@@ -109,11 +107,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
   Raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,8 +162,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
