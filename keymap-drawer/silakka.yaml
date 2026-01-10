@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', h: CLCK}
+  - {t: '-', h: Meh+RIGHT GUI}
   - $$mdi:apple-keyboard-control$$
   - {t: A, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
