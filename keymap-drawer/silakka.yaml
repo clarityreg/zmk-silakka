@@ -1,8 +1,60 @@
 layout: {zmk_keyboard: silakka}
 layers:
-  Base: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J,
-    K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', Lower, ⏎, '$$mdi:apple-keyboard-command$$', '$$mdi:backspace-outline$$',
-    ␣, Raise]
+  Base:
+  - Esc
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '`'
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '-', h: CLCK}
+  - $$mdi:apple-keyboard-control$$
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
+  - {t: '''', h: Raise}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: '|', h: Lower}
+  - LEFT ALT
+  - LEFT GUI
+  - ⏎
+  - ␣
+  - BACKSPACE
+  - RIGHT GUI
   Lower:
   - BT CLR
   - BT 1
@@ -46,13 +98,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
   - '-'
   - KP PLUS
   - '{'
   - '}'
-  - '|'
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,7 +146,7 @@ layers:
   - ↓
   - ↑
   - →
-  - {t: ▽, type: trans}
+  - {type: held}
   - F7
   - F8
   - F9
@@ -112,4 +164,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
