@@ -1,0 +1,15 @@
+file_format: "1"
+id: silakka
+name: Silakka
+type: shield
+url: https://github.com/kata0510/Lily58
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - silakka_left
+  - silakka_right
+  - silakka_left_peripheral
