@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: silakka}
 layers:
   Base: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J,
-    K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$',
-    Lower, ␣, ⏎, Raise, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
+    K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', Lower, ⏎, '$$mdi:apple-keyboard-command$$', '$$mdi:backspace-outline$$',
+    ␣, Raise]
   Lower:
   - BT CLR
   - BT 1
@@ -52,8 +52,6 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,5 +113,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
